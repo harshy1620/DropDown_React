@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+/* css for main container */
+.container{
+  background-color: rgb(74, 150, 222);
+  max-height:60vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:10px;
+  margin-top: 50px;
+}
+
+.heading{
+  color: white;
+  text-align: center;
+
+}
+
+/* css for button */
+.drop-btn{
+height:2rem;
+width: 10rem;
+color: rgb(255, 255, 255);
+background-color: rgb(60, 69, 243);
+border:none;
+outline: none;
+margin-bottom: 10px;
+}
+.drop-btn:hover {
+  box-shadow: 0px 0px 5px 2px rgb(178, 171, 241);
+  transform:translateY(3px);
+ }
+
+ .drop-content{
+  margin-bottom: 15px;
+ }
+
+ /* css for list item */
+.drop-content li{
+  list-style: none;
+  box-sizing: border-box;
+  padding-left:5px;
+  color: white;
+  border: none;
+  height:2rem;
+  width: 10rem;
+  background-color: rgb(60, 69, 243);
+  display: flex;
+  align-items: center; 
+}
+
+.drop-content li:hover{
+  background-color: rgb(118, 119, 223);
+  transition:all 0.1s ease-in-out;
+}
